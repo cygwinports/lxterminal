@@ -1,0 +1,85 @@
+lxterminal
+------------------------------------------
+LXterminal is a VTE-based terminal emulator with support for multiple 
+tabs. It is completely desktop-independent and does not have any 
+unnecessary dependencies. In order to reduce memory usage and increase 
+the performance all instances of the terminal are sharing a single 
+process.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libgdk_pixbuf2.0_0-2.14.7-2
+  libglib2.0_0-2.18.4-1
+  libgtk2.0_0-2.14.7-2
+  libintl8-0.17-2
+  libvte9-0.17.4-1
+  libX11_6-1.1.5-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gnome-common-2.24.0-1
+  intltool-0.40.5-1
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://lxde.org/
+
+Canonical download:
+  http://downloads.sourceforge.net/lxde/
+
+-------------------------------------------
+
+Build instructions:
+  unpack lxterminal-0.1.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./lxterminal-0.1.4-X.cygport all
+
+This will create:
+  /usr/src/lxterminal-0.1.4-X-src.tar.bz2
+  /usr/src/lxterminal-0.1.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/lxterminal.exe
+  /usr/share/applications/lxterminal.desktop
+  /usr/share/doc/lxterminal-0.1.4/AUTHORS
+  /usr/share/doc/lxterminal-0.1.4/COPYING
+  /usr/share/doc/lxterminal-0.1.4/INSTALL
+  /usr/share/doc/lxterminal-0.1.4/README
+  /usr/share/locale/de/LC_MESSAGES/lxterminal.mo
+  /usr/share/locale/de_AT/LC_MESSAGES/lxterminal.mo
+  /usr/share/locale/de_CH/LC_MESSAGES/lxterminal.mo
+  /usr/share/locale/de_DE/LC_MESSAGES/lxterminal.mo
+  /usr/share/locale/es/LC_MESSAGES/lxterminal.mo
+  /usr/share/locale/fi/LC_MESSAGES/lxterminal.mo
+  /usr/share/locale/hu/LC_MESSAGES/lxterminal.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/lxterminal.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/lxterminal.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/lxterminal.mo
+  /usr/share/lxterminal/lxterminal.conf
+  /usr/share/man/man1/lxterminal.1.gz
+  /usr/share/pixmaps/lxterminal.png
+
+------------------
+
+Port Notes:
+
+----- version 0.1.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
