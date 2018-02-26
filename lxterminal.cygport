@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="lxterminal"
-VERSION=0.2.0
+VERSION=0.3.1
 RELEASE=1
 CATEGORY="Shells X11"
 SUMMARY="LXDE virtual terminal emulator"
@@ -10,4 +10,4 @@ multiple tabs. It is completely desktop-independent and does not have any
 unnecessary dependencies. In order to reduce memory usage and increase the
 performance all instances of the terminal are sharing a single process."
 HOMEPAGE="http://lxde.org/"
-SRC_URI="mirror://sourceforge/lxde/${NAME}-${VERSION}.tar.gz"
+SRC_URI="mirror://sourceforge/lxde/${NAME}-${VERSION}.tar.xz"
